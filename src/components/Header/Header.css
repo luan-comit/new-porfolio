@@ -1,9 +1,26 @@
 .header {
-  height: 8em;
+  height: 12em;
   max-width: 1100px;
   width: 95%;
   margin: 0 auto;
   justify-content: space-between;
+}
+
+.avatar {
+  max-width: 60px;
+  margin: 0 auto;
+  display: grid;
+  border: auto;
+  /* border-color: red; */
+}
+
+.avatar img {
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+}
+
+.avatar:hover img {
+  transform: scale(3);
 }
 
 @media (max-width: 600px) {

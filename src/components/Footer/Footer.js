@@ -6,7 +6,7 @@ const Footer = () => (
       href='https://portfolio.luanle.online'
       className='link footer__link'
     >
-      Created by Luan Le
+      © Luan Le - Personal Portfolio 2023
     </a>
   </footer>
 )

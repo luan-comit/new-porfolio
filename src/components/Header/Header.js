@@ -3,18 +3,17 @@ import Navbar from '../Navbar/Navbar'
 import './Header.css'
 
 const Header = () => {
-  const { homepage, title, avatar } = header
+  const { avatar } = header
 
   return (
     <header className='header center'>
       <h3>
-        {homepage ? (
-          <a href={homepage} className='link'>
-            {title}
-          </a>
-        ) : (
-          title
-        )}
+        <div className='avatar'>
+          <img
+            src = {avatar}
+            alt='avatar'
+          />
+        </div>
       </h3>
       <Navbar />
     </header>

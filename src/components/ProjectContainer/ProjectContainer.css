@@ -12,9 +12,11 @@
 
 .project__description {
   margin-top: 1em;
+  padding: 8%;
 }
 
 .project__stack {
+  padding: 8%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -22,6 +24,7 @@
 }
 
 .project__stack-item {
+  justify-content: center;
   margin: 0.5em;
   font-weight: 500;
   font-size: 0.8rem;
