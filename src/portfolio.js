@@ -20,7 +20,7 @@ const projects = [
     description:
       'A backend API that allows fetching hot-deal items from BestBuy, Kijiji or Amazon, tracking price changes, and then storing them into database for selling.',
     stack: ['NodeJS', 'JavaScript', 'Express JS', 'MongoDB', 'Docker Container', 'Heroku Cloud', 'Paypal/Stripe Payment Integration'],
-    sourceCode: 'https://pm-api.luanle.online',
+    sourceCode: 'https://github.com/luan-comit/pm-api',
     livePreview: 'https://pm-api.luanle.online',
   },
   {
@@ -28,7 +28,7 @@ const projects = [
     description:
       'A web portal for online shopping with cart and payment integrated with Paypal and Stripe.',
     stack: ['JavaScript', 'Express JS', 'LocalStorage', 'Vercel Cloud', 'Paypal/Stripe Client integration'],
-    sourceCode: 'https://store.luanle.online',
+    sourceCode: 'https://github.com/luan-comit/pm-web-portal',
     livePreview: 'https://store.luanle.online',
   },
   {
@@ -36,7 +36,7 @@ const projects = [
     description:
       'A frontend and backend application running parallel to manage food recipes for a restaurant, demo data is for a Vietnamese Broken Rice restaurant but can be easily deployed for other recipes and extended with more features.',
     stack: ['SASS', 'TypeScript', 'React', 'Mui & Formik', 'GraphQL', 'MongoDB', 'Docker Container', 'Vercel Cloud'],
-    sourceCode: 'https://foodshop.luanle.online',
+    sourceCode: 'https://github.com/luan-comit/foodshop-graphql',
     livePreview: 'https://foodshop.luanle.online',
   },
 ]

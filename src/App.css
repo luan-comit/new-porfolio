@@ -78,7 +78,7 @@ p {
 
 .link--nav {
   color: var(--clr-fg);
-  text-transform: lowercase;
+  text-transform: uppercase;
   font-weight: 500;
 }
 
