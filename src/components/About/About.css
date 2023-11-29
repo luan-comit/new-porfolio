@@ -21,6 +21,10 @@
   margin-top: 2.4em;
 }
 
+.about__center {
+  align-self: center;
+}
+
 .about .link--icon {
   margin-right: 0.8em;
 }

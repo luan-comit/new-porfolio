@@ -17,40 +17,42 @@ const About = () => {
       {role && <h2 className='about__role'>A {role}.</h2>}
       <p className='about__desc'>{description && description}</p>
 
-      <div className='about__contact center'>
-        {resume && (
-          <a href={resume}  target='blank'>
-            <span type='button' className='btn btn--outline'>
-              Resume
-            </span>
-          </a>
-        )}
+      <div className='about__center'>
+        <div className='about__contact center'>
+          {resume && (
+            <a href={resume} target='blank'>
+              <span type='button' className='btn btn--outline'>
+                Resume
+              </span>
+            </a>
+          )}
 
-        {social && (
-          <>
-            {social.github && (
-              <a
-                href={social.github}
-                aria-label='github'
-                className='link link--icon'
-                target='blank'
-              >
-                <GitHubIcon />
-              </a>
-            )}
+          {social && (
+            <>
+              {social.github && (
+                <a
+                  href={social.github}
+                  aria-label='github'
+                  className='link link--icon'
+                  target='blank'
+                >
+                  <GitHubIcon />
+                </a>
+              )}
 
-            {social.linkedin && (
-              <a
-                href={social.linkedin}
-                aria-label='linkedin'
-                className='link link--icon'
-                target='blank'
-              >
-                <LinkedInIcon />
-              </a>
-            )}
-          </>
-        )}
+              {social.linkedin && (
+                <a
+                  href={social.linkedin}
+                  aria-label='linkedin'
+                  className='link link--icon'
+                  target='blank'
+                >
+                  <LinkedInIcon />
+                </a>
+              )}
+            </>
+          )}
+        </div>
       </div>
     </div>
   )

@@ -22,6 +22,7 @@ const projects = [
     stack: ['NodeJS', 'JavaScript', 'Express JS', 'MongoDB', 'Docker Container', 'Heroku Cloud', 'Paypal/Stripe Payment Integration'],
     sourceCode: 'https://github.com/luan-comit/pm-api',
     livePreview: 'https://pm-api.luanle.online',
+    videoDemo: 'https://www.dropbox.com/scl/fi/4jwa01ns8u48z04qxovu5/PriceMonitor-backend-demo.mov?rlkey=oylnkuhmbs2f9xpzmgqtod8g5&dl=0'
   },
   {
     name: 'Shop & Payments',
@@ -30,6 +31,7 @@ const projects = [
     stack: ['JavaScript', 'Express JS', 'LocalStorage', 'Vercel Cloud', 'Paypal/Stripe Client integration'],
     sourceCode: 'https://github.com/luan-comit/pm-web-portal',
     livePreview: 'https://store.luanle.online',
+    videoDemo: 'https://www.dropbox.com/scl/fi/m9p0e732274c37s2qyljn/Shop-Payment-demo.mov?rlkey=7xlwlh3hq6jyc5lqv7wpur3ra&dl=0'
   },
   {
     name: 'Broken Rice Restaurant',

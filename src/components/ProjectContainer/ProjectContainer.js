@@ -1,5 +1,6 @@
 import uniqid from 'uniqid'
 import { Slideshow, Code } from '@material-ui/icons'
+import LaunchIcon from '@material-ui/icons/Launch'
 import './ProjectContainer.css'
 
 const ProjectContainer = ({ project }) => (
@@ -17,6 +18,17 @@ const ProjectContainer = ({ project }) => (
       </ul>
     )}
 
+    {project.videoDemo && (
+      <a
+        href={project.videoDemo}
+        aria-label='video demo'
+        className='link link--icon'
+        target='blank'
+      >
+        <Slideshow />
+      </a>
+    )}
+
     {project.livePreview && (
       <a
         href={project.livePreview}
@@ -24,7 +36,7 @@ const ProjectContainer = ({ project }) => (
         className='link link--icon'
         target='blank'
       >
-        <Slideshow />
+        <LaunchIcon />
       </a>
     )}
 
